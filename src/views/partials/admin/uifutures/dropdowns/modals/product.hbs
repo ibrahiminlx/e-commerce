@@ -1,0 +1,80 @@
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <div class="row px-5">
+                            <div class="col-md-6 pt-2">
+                                <label class="control-label pb-2" for="product_id">ÜRÜN ID'Sİ</label>
+                                <input id="product_id" name="product_id" placeholder="ürün id'si" class="form-control input-md" required="" type="text">
+                            </div>
+                            <div class="col-md-6 pt-2">
+                                <label class="control-label pb-2" for="product_name">ÜRÜN İSMİ</label>
+                                <input id="product_name" name="product_name" placeholder="ürün ismi" class="form-control input-md" required="" type="text">
+
+
+                            </div>
+                            <div class="col-md-6 pt-2">
+                                <label class="control-label pb-2" for="product_name_fr">ÜRÜN BAŞLIĞI</label>
+                                <input id="product_name_fr" name="product_name_fr" placeholder="ürün başlığı" class="form-control input-md" required="" type="text">
+
+                            </div>
+                            <div class="col-md-6 pt-2">
+                                <label class="control-label pb-2" for="product_id">ÜRÜN ID'Sİ</label>
+                                <input id="product_id" name="product_id" placeholder="ürün id'si" class="form-control input-md" required="" type="text">
+                            </div>
+                            <div class="col-md-6 pt-2">
+                                <label class="control-label pb-2" for="product_categorie">ÜRÜN KATEGORİSİ</label>
+                                <select id="product_categorie" name="product_categorie" class="form-control"></select>
+                            </div>
+                            <div class="col-md-6 pt-2">
+                                <label class="control-label pb-2" for="available_quantity">ÜRÜN FİYATI</label>
+                                <input id="available_quantity" name="available_quantity" placeholder="ürün fiyati" class="form-control input-md" required="" type="text">
+
+                            </div>
+                            <div class="col-md-6 pt-2">
+                                <label class="control-label pb-2" for="product_description">ÜRÜN AÇIKLAMASI</label>
+                                <textarea class="form-control" id="product_description" name="product_description"></textarea>
+                            </div>
+                            <div class="col-md-6 pt-2">
+                                <label class="control-label pb-2" for="percentage_discount">YÜZDE İNDİRİM</label>
+                                <input id="percentage_discount" name="percentage_discount" placeholder="%yüzde indirim" class="form-control input-md" required="" type="text">
+                            </div>
+                            <div class="col-md-6 pt-2">
+                                <label class="control-label pb-2" for="stock_alert">STOK UYARISI</label>
+                                <input id="stock_alert" name="stock_alert" placeholder="Kaç ürün kalınca bildirim yapsın" class="form-control input-md" required="" type="text">
+                            </div>
+                            <div class="col-md-6 pt-2">
+                                <label class="control-label pb-2" for="stock_critical">KRİTİK STOKLAR</label>
+                                <input id="stock_critical" name="stock_critical" placeholder="Kaç ürün kalınca kritik stok bildirimi" class="form-control input-md" required="" type="search">
+                            </div>
+                            <div class="col-md-6 pt-2">
+                                <label>Fotograf Yükleme</label>
+                                <input type="file" name="img[]" class="file-upload-default">
+                                <div class="input-group col-xs-12">
+                                    <input type="text" class="form-control file-upload-info" disabled placeholder="Upload Image">
+                                    <span class="input-group-append">
+                            <button class="file-upload-browse btn btn-primary" type="button">Upload</button>
+                          </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Send message</button>
+            </div>
+        </div>
+    </div>
+</div>

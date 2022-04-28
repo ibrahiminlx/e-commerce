@@ -6,7 +6,6 @@ function productEvent(){
         let element=$(this)
         let closest=element.closest("tr")
         let id=closest.attr("data-id")
-
         $.ajax({
             method: "post",
             url: "service/user",
@@ -24,10 +23,13 @@ function productEvent(){
                 console.log(textStatus);
                 console.log(errorThrown);
             }
+
         })
+        console.log("sadasd")
 
 
 
     })
+
 
 }
